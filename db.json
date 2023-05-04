@@ -1,0 +1,100 @@
+{
+  "application": { "title": "Fruit Store", "version": "1.0.0" },
+  "products": [
+    {
+      "id": 1,
+      "title": "Apple",
+      "subTitle": "This is an Apple",
+      "description": "This is an Apple",
+      "price": 1.1,
+      "imgUrl": "https://www.collinsdictionary.com/images/thumb/apple_158989157_250.jpg",
+      "qty": 10,
+      "rating": 2,
+      "new": false,
+      "feature": true,
+      "sale": 10,
+      "related": [],
+      "upsell": []
+    },
+    {
+      "id": 2,
+      "title": "Banana",
+      "subTitle": "This is a Banana",
+      "description": "This is a Banana",
+      "price": 0.75,
+      "imgUrl": "https://www.collinsdictionary.com/images/thumb/banana_64728013_250.jpg",
+      "qty": 10,
+      "rating": 5,
+      "new": false,
+      "feature": false,
+      "sale": 15,
+      "related": [],
+      "upsell": []
+    },
+    {
+      "id": 3,
+      "title": "Mango",
+      "subTitle": "This is a Mango",
+      "description": "This is a Mango",
+      "price": 2.0,
+      "imgUrl": "https://www.collinsdictionary.com/images/thumb/mango_414745195_250.jpg",
+      "qty": 10,
+      "rating": 3,
+      "new": true,
+      "feature": false,
+      "sale": 0,
+      "related": [],
+      "upsell": []
+    },
+    {
+      "id": 4,
+      "title": "Pear",
+      "subTitle": "This is a Pear",
+      "description": "This is a Pear",
+      "price": 1.5,
+      "imgUrl": "https://www.collinsdictionary.com/images/thumb/pear_274360775_250.jpg",
+      "qty": 10,
+      "rating": 5,
+      "new": true,
+      "feature": true,
+      "sale": 0,
+      "related": [],
+      "upsell": []
+    },
+    {
+      "id": 5,
+      "title": "Orange",
+      "subTitle": "This is an Orange",
+      "description": "This is an Orange",
+      "price": 1.0,
+      "imgUrl": "https://www.collinsdictionary.com/images/thumb/orange_342874121_250.jpg",
+      "qty": 10,
+      "rating": 2,
+      "new": false,
+      "feature": false,
+      "sale": 30,
+      "related": [],
+      "upsell": []
+    }
+  ],
+  "socialnetworks": [
+    {
+      "id": 1,
+      "name": "Facebook",
+      "link": "https://www.facebook.com/",
+      "icon": "facebook"
+    },
+    {
+      "id": 2,
+      "name": "Twitter",
+      "link": "https://twitter.com/",
+      "icon": "twitter"
+    },
+    {
+      "id": 3,
+      "name": "Instagram",
+      "link": "https://www.instagram.com/",
+      "icon": "instagram"
+    }
+  ]
+}
