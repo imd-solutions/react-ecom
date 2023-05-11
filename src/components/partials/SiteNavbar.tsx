@@ -1,7 +1,7 @@
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import { iLink } from "../types/Link";
-import { iButton } from "../types/Button";
+import { iLink } from "../../types/Link";
+import { iButton } from "../../types/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import BreadCrumbs from "./BreadCrumbs";
 
@@ -14,7 +14,11 @@ export default function SiteNavbar() {
   ];
 
   const buttons: iButton[] = [
-    { title: "Login", variant: "danger", css: "me-2" },
+    {
+      title: "Login",
+      variant: "danger",
+      css: "me-2 text-red-500 border border-red-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase px-8 py-3 rounded  focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150",
+    },
     {
       title: "",
       variant: "outline-danger",
@@ -37,7 +41,7 @@ export default function SiteNavbar() {
   ];
   return (
     <div>
-      <Navbar sticky="top" className="bg-white shadow-sm mb-3">
+      <Navbar sticky="top" className="bg-white shadow-sm">
         <Container>
           <Nav className="me-auto">
             {links.map((link, i) => (

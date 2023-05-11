@@ -2,8 +2,8 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "../utilities/axios";
 import { iProduct } from "../types/Product";
-import PageLoading from "../components/PageLoading";
-import ProductItem from "../components/ProductItem";
+import PageLoading from "../components/partials/PageLoading";
+import ProductItem from "../components/pages/store/ProductItem";
 
 export default function Product() {
   const { id } = useParams();

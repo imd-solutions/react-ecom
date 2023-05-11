@@ -1,6 +1,6 @@
-import { Product } from "../types/Product";
+import { iProduct } from "../../../types/Product";
 
-export default function ProductPrice(product: Product) {
+export default function ProductPrice(product: iProduct) {
   function productPrice(price: number, sale: number) {
     if (sale > 0) {
       const discount = price * (sale / 100);

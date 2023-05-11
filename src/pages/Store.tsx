@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from "../utilities/axios";
 import { iProduct } from "../types/Product";
-import PageLoading from "../components/PageLoading";
+import PageLoading from "../components/partials/PageLoading";
 import { Row, Col } from "react-bootstrap";
-import StoreItem from "../components/StoreItem";
+import StoreItem from "../components/pages/store/StoreItem";
 
 export default function Store() {
   const [spinner, setSpinner] = useState(true);

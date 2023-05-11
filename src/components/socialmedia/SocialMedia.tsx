@@ -1,4 +1,4 @@
-import { iSocialNetwork } from "../types/SocialNetwork";
+import { iSocialNetwork } from "../../types/SocialNetwork";
 import SocialMediaIcon from "./SocialMediaIcon";
 
 export default function SocialMedia() {
@@ -32,7 +32,11 @@ export default function SocialMedia() {
         // <a className="me-1" href="#" style={{ width: "25px", height: "25px" }}>
         //   <img className="img-fluid" src={social.name} alt={social.name} />
         // </a>
-        <SocialMediaIcon icon={social.icon} key={i} />
+        <SocialMediaIcon
+          icon={social.icon}
+          size={{ height: 25, width: 25 }}
+          key={i}
+        />
         // <h1>{social.icon}</h1>
       ))}
     </div>

@@ -1,5 +1,5 @@
-import GoldStar from "../assets/images/icons/goldstar.svg";
-import GreyStar from "../assets/images/icons/greystar.svg";
+import GoldStar from "../../assets/images/icons/goldstar.svg";
+import GreyStar from "../../assets/images/icons/greystar.svg";
 
 interface ProductRating {
   rating: number;

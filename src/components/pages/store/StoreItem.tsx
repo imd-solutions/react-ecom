@@ -1,8 +1,8 @@
-import { iProduct } from "../types/Product";
-import NewPill from "./NewPill";
-import SalePill from "./SalePill";
+import { iProduct } from "../../../types/Product";
+import NewPill from "../../icons/NewPill";
+import SalePill from "../../icons/SalePill";
 import ProductPrice from "./ProductPrice";
-import StarRating from "./StarRating";
+import StarRating from "../../icons/StarRating";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

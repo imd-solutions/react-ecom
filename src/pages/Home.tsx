@@ -1,7 +1,18 @@
+import JumboTron from "../components/pages/home/JumboTron";
+import NewProducts from "../components/pages/store/NewProducts";
+import WhyUs from "../components/pages/home/WhyUs";
+import BlogPosts from "../components/pages/blog/BlogPosts";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <JumboTron />
+
+      <NewProducts />
+
+      <WhyUs />
+
+      <BlogPosts />
+    </>
   );
 }

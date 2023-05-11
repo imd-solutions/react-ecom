@@ -1,8 +1,7 @@
-import { Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import useBreadcrumbs from "use-react-router-breadcrumbs";
-import { useLocation, useSearchParams } from "react-router-dom";
-import { iProduct } from "../types/Product";
+import { useLocation } from "react-router-dom";
+import { iProduct } from "../../types/Product";
 
 export default function BreadCrumbs() {
   const routes = [
@@ -35,27 +34,26 @@ export default function BreadCrumbs() {
   }
 
   return (
-    <Container>
-      <nav aria-label="breadcrumb">
-        <ol className="breadcrumb">
-          {breadcrumbs.map(({ match, breadcrumb }, i) => (
-            <li
-              className={`breadcrumb-item ${
-                match.pathname === location.pathname ? "active" : ""
-              }`}
-              key={i}
-            >
-              {match.pathname !== location.pathname ? (
-                <NavLink key={i} to={match.pathname}>
-                  {breadcrumb}
-                </NavLink>
-              ) : (
-                searchProductName(breadcrumb)
-              )}
-            </li>
-          ))}
-        </ol>
-      </nav>
-    </Container>
+    <div className="bg-primary mb-3">
+      <div className="container py-4">
+        <nav className="d-flex">
+          <h6 className="mb-0">
+            {breadcrumbs.map(({ match, breadcrumb }, i) => (
+              <span key={i}>
+                {match.pathname !== location.pathname ? (
+                  <NavLink to={match.pathname} className={"text-white-50"}>
+                    <span className={"px-1"}>{breadcrumb}</span>/
+                  </NavLink>
+                ) : (
+                  <span className={"text-white ps-1"}>
+                    {searchProductName(breadcrumb)}
+                  </span>
+                )}
+              </span>
+            ))}
+          </h6>
+        </nav>
+      </div>
+    </div>
   );
 }

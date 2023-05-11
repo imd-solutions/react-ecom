@@ -5,7 +5,8 @@ import About from "./pages/About";
 import Store from "./pages/Store";
 import Product from "./pages/Product";
 import Contact from "./pages/Contact";
-import SiteNavbar from "./components/SiteNavbar";
+import SiteNavbar from "./components/partials/SiteNavbar";
+import SiteFooter from "./components/partials/SiteFooter";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/store/:id" element={<Product />} />
         </Routes>
       </Container>
+      <SiteFooter />
     </>
   );
 }
