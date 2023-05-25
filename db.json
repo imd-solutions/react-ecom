@@ -1,5 +1,5 @@
 {
-  "application": { "title": "Fruit Store", "version": "1.0.0" },
+  "application": { "name": "Shopee Fruit & Veg store", "version": "1.0.0" },
   "products": [
     {
       "id": 1,
@@ -75,6 +75,81 @@
       "sale": 30,
       "related": [],
       "upsell": []
+    },
+    {
+      "id": 6,
+      "title": "Pineapple",
+      "subTitle": "This is an Pineapple",
+      "description": "This is an Pineapple",
+      "price": 1.0,
+      "imgUrl": "https://www.collinsdictionary.com/images/full/pineapple_124985672_1000.jpg",
+      "qty": 10,
+      "rating": 2,
+      "new": false,
+      "feature": false,
+      "sale": 30,
+      "related": [],
+      "upsell": []
+    },
+    {
+      "id": 7,
+      "title": "Lettuce",
+      "subTitle": "This is an Lettuce",
+      "description": "This is an Lettuce",
+      "price": 1.0,
+      "imgUrl": "https://www.collinsdictionary.com/images/thumb/lettuce_124415023_250.jpg",
+      "qty": 10,
+      "rating": 2,
+      "new": true,
+      "feature": false,
+      "sale": 30,
+      "related": [],
+      "upsell": []
+    },
+    {
+      "id": 8,
+      "title": "Carrot",
+      "subTitle": "This is an Carrot",
+      "description": "This is an Carrot",
+      "price": 1.0,
+      "imgUrl": "https://www.collinsdictionary.com/images/thumb/carrot_125262134_250.jpg",
+      "qty": 10,
+      "rating": 2,
+      "new": true,
+      "feature": false,
+      "sale": 30,
+      "related": [],
+      "upsell": []
+    },
+    {
+      "id": 9,
+      "title": "Potato",
+      "subTitle": "This is an Potato",
+      "description": "This is an Potato",
+      "price": 1.0,
+      "imgUrl": "https://www.collinsdictionary.com/images/thumb/potato_113134582_250.jpg",
+      "qty": 10,
+      "rating": 2,
+      "new": false,
+      "feature": false,
+      "sale": 30,
+      "related": [],
+      "upsell": []
+    },
+    {
+      "id": 10,
+      "title": "Tomato",
+      "subTitle": "This is an Tomato",
+      "description": "This is an Tomato",
+      "price": 1.0,
+      "imgUrl": "https://www.collinsdictionary.com/images/thumb/tomato_281240360_250.jpg",
+      "qty": 10,
+      "rating": 2,
+      "new": false,
+      "feature": false,
+      "sale": 30,
+      "related": [],
+      "upsell": []
     }
   ],
   "socialnetworks": [
@@ -95,6 +170,108 @@
       "name": "Instagram",
       "link": "https://www.instagram.com/",
       "icon": "instagram"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "image": "https://www.dioceseofnorwich.org/wp-content/uploads/2019/11/welcome.jpg",
+      "date": "2023-01-01",
+      "title": "Welcome to Shopee",
+      "slug": "welcome-to-shopee",
+      "excerpt": "Hello and welcome to the first blog for our new Shopee site.",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL4Q7UVFQvZ5WtLjtPYLMuUsUSd4Ej879QHA&usqp=CAU",
+      "date": "2023-01-01",
+      "title": "Shortage of Fruit and Veg",
+      "slug": "shortage-of-fruit-and-veg",
+      "excerpt": "With the shortages all over the country. Shoppe have plenty in stock",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "image": null,
+      "date": "2023-01-01",
+      "title": "Blog Post 3",
+      "slug": "blog-post-3",
+      "excerpt": "This is the excerpt for blog post 3",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "image": null,
+      "date": "2023-01-01",
+      "title": "Blog Post 4",
+      "slug": "blog-post-4",
+      "excerpt": "This is the excerpt for blog post 4",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAq_VqciJmGWpl-EpKlZh4njw0j2x_PQ109w&usqp=CAU",
+      "date": "2023-01-01",
+      "title": "Potato chips 5-a-day list",
+      "slug": "potato-chips-5-a-day-list",
+      "excerpt": "Scientist have added potato chips and crisps to the 5-a-day list. Children are happy, however parents are not.",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "featured": true
+    },
+    {
+      "id": 6,
+      "image": null,
+      "date": "2023-01-01",
+      "title": "Blog Post 6",
+      "slug": "blog-post-6",
+      "excerpt": "This is the excerpt for blog post 6",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "image": null,
+      "date": "2023-01-01",
+      "title": "Blog Post 7",
+      "slug": "blog-post-7",
+      "excerpt": "This is the excerpt for blog post 7",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReubVcbkLpF_7RirZ9l6PUmlFKJZCVB2NHU9Drh3Xf84N1SfV6yqXmPM9OyG1MQN0tSxI&usqp=CAU",
+      "date": "2023-12-31",
+      "title": "How we handle shipping",
+      "slug": "how-we-handle-shipping",
+      "excerpt": "When you enter into any new area of science, you almost reach.",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "featured": true
+    },
+    {
+      "id": 9,
+      "image": null,
+      "date": "2023-01-01",
+      "title": "Blog Post 9",
+      "slug": "blog-post-9",
+      "excerpt": "This is the excerpt for blog post 9",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "image": null,
+      "date": "2023-01-01",
+      "title": "Blog Post 10",
+      "slug": "blog-post-10",
+      "excerpt": "This is the excerpt for blog post 10",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "featured": false
     }
   ]
 }

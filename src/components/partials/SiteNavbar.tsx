@@ -4,14 +4,19 @@ import { iLink } from "../../types/Link";
 import { iButton } from "../../types/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import BreadCrumbs from "./BreadCrumbs";
+import logo from "./../../assets/images/logo/logo.png";
 
-export default function SiteNavbar() {
+interface iSiteNavBar {
+  links: iLink[];
+}
+
+export default function SiteNavbar({ links }: iSiteNavBar) {
   const cartItemCount = 0;
-  const links: iLink[] = [
-    { to: "/about", title: "About" },
-    { to: "/store", title: "Store" },
-    { to: "/contact-us", title: "Contact" },
-  ];
+  // const links: iLink[] = [
+  //   { to: "/about", title: "About" },
+  //   { to: "/store", title: "Store" },
+  //   { to: "/contact-us", title: "Contact" },
+  // ];
 
   const buttons: iButton[] = [
     {
@@ -43,6 +48,10 @@ export default function SiteNavbar() {
     <div>
       <Navbar sticky="top" className="bg-white shadow-sm">
         <Container>
+          <NavLink to="/">
+            <img src={logo} alt="" width={200} />
+          </NavLink>
+
           <Nav className="me-auto">
             {links.map((link, i) => (
               <Nav.Link to={link.to} as={NavLink} key={i}>

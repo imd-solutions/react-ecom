@@ -34,7 +34,7 @@ export default function BreadCrumbs() {
   }
 
   return (
-    <div className="bg-primary mb-3">
+    <div className="bg-danger mb-3">
       <div className="container py-4">
         <nav className="d-flex">
           <h6 className="mb-0">
